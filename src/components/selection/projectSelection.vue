@@ -4,7 +4,7 @@ const emit = defineEmits(['project-selected'])
 const projects = [
     'To Do App',
     'Random Quote Generator',
-    'Project 3',
+    'Noob Calculator',
     'Project 4',
     'Project 5',
     'Project 6',
