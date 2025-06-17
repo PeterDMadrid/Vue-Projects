@@ -20,7 +20,7 @@ const selectProject = (project) => {
 </script>
 
 <template>
-    <div class="border p-4 m-4 bg-white rounded-lg shadow-md w-full h-112 overflow-y-auto">
+    <div class="border p-4 m-4 bg-white rounded-lg shadow-md w-full h-136 overflow-y-auto">
         <h1 class="text-xl font-bold mb-4">Project Selection</h1>
         <ul class="space-y-1">
             <li v-for="(project, index) in projects" :key="index">
