@@ -18,7 +18,7 @@ const currentComponent = computed(() => {
 </script>
 
 <template>
-    <div class="border p-4 m-4 bg-white rounded-lg shadow-md w-full h-112 overflow-y-auto">
+    <div class="border p-4 m-4 bg-white rounded-lg shadow-md w-full h-136 overflow-y-auto">
         <h1 class="text-xl font-bold mb-4">Display Project</h1>
 
         <div v-if="selectedProject" class="mb-4">
