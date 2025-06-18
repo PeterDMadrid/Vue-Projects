@@ -2,6 +2,7 @@
 import { computed } from 'vue'
 import toDoApp from '../selection/projects/toDoApp.vue';
 import randomQuoteGenerator from '../selection/projects/randomQuoteGenerator.vue';
+import noobCalculator from '../selection/projects/noobCalculator.vue'
 
 const props = defineProps(['selectedProject'])
 
@@ -11,6 +12,8 @@ const currentComponent = computed(() => {
             return toDoApp
         case 'Random Quote Generator':
             return randomQuoteGenerator
+        case 'Noob Calculator':
+            return noobCalculator
         default:
             return null
     }
