@@ -5,7 +5,7 @@ const projects = [
     'To Do App',
     'Random Quote Generator',
     'Noob Calculator',
-    'Project 4',
+    'Accordions Menu',
     'Project 5',
     'Project 6',
     'Project 7',
