@@ -5,6 +5,7 @@ import randomQuoteGenerator from '../selection/projects/randomQuoteGenerator.vue
 import noobCalculator from '../selection/projects/noobCalculator.vue'
 import accordionsMenu from '../selection/projects/accordionsMenu.vue';
 import formValidation from '../selection/projects/formValidation.vue';
+import passwordGenerator from '../selection/projects/passwordGenerator.vue';
 
 const props = defineProps(['selectedProject'])
 
@@ -20,6 +21,8 @@ const currentComponent = computed(() => {
             return accordionsMenu
         case 'Form Validation':
             return formValidation
+        case 'Password Generator':
+            return passwordGenerator
         default:
             return null
     }
