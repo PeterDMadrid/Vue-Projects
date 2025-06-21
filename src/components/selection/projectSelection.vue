@@ -7,7 +7,7 @@ const projects = [
     'Noob Calculator',
     'Accordions Menu',
     'Form Validation',
-    'Project 6',
+    'Password Generator',
     'Project 7',
     'Project 8',
     'Project 9',
