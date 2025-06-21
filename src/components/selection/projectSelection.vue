@@ -6,7 +6,7 @@ const projects = [
     'Random Quote Generator',
     'Noob Calculator',
     'Accordions Menu',
-    'Project 5',
+    'Form Validation',
     'Project 6',
     'Project 7',
     'Project 8',

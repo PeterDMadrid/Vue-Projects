@@ -4,6 +4,7 @@ import toDoApp from '../selection/projects/toDoApp.vue';
 import randomQuoteGenerator from '../selection/projects/randomQuoteGenerator.vue';
 import noobCalculator from '../selection/projects/noobCalculator.vue'
 import accordionsMenu from '../selection/projects/accordionsMenu.vue';
+import formValidation from '../selection/projects/formValidation.vue';
 
 const props = defineProps(['selectedProject'])
 
@@ -17,6 +18,8 @@ const currentComponent = computed(() => {
             return noobCalculator
         case 'Accordions Menu':
             return accordionsMenu
+        case 'Form Validation':
+            return formValidation
         default:
             return null
     }
