@@ -8,7 +8,7 @@ const projects = [
     'Accordions Menu',
     'Form Validation',
     'Password Generator',
-    'Project 7',
+    'Steps Progress',
     'Project 8',
     'Project 9',
     'Project 10'
