@@ -8,6 +8,7 @@ import formValidation from '../selection/projects/formValidation.vue';
 import passwordGenerator from '../selection/projects/passwordGenerator.vue';
 import stepsProgress from '../selection/projects/StepsProgress.vue';
 import dadJokes from '../selection/projects/dadJokes.vue';
+import githubSearch from '../selection/projects/githubSearch.vue';
 
 const props = defineProps(['selectedProject'])
 
@@ -29,6 +30,8 @@ const currentComponent = computed(() => {
             return stepsProgress
         case 'Dad Jokes':
             return dadJokes
+        case 'Github Search':
+            return githubSearch
         default:
             return null
     }
