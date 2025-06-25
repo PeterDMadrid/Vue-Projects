@@ -7,6 +7,7 @@ import accordionsMenu from '../selection/projects/accordionsMenu.vue';
 import formValidation from '../selection/projects/formValidation.vue';
 import passwordGenerator from '../selection/projects/passwordGenerator.vue';
 import stepsProgress from '../selection/projects/StepsProgress.vue';
+import dadJokes from '../selection/projects/dadJokes.vue';
 
 const props = defineProps(['selectedProject'])
 
@@ -26,6 +27,8 @@ const currentComponent = computed(() => {
             return passwordGenerator
         case 'Steps Progress':
             return stepsProgress
+        case 'Dad Jokes':
+            return dadJokes
         default:
             return null
     }

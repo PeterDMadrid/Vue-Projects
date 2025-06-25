@@ -9,7 +9,7 @@ const projects = [
     'Form Validation',
     'Password Generator',
     'Steps Progress',
-    'Project 8',
+    'Dad Jokes',
     'Project 9',
     'Project 10'
 ]
