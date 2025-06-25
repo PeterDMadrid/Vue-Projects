@@ -10,7 +10,7 @@ const projects = [
     'Password Generator',
     'Steps Progress',
     'Dad Jokes',
-    'Project 9',
+    'Github Search',
     'Project 10'
 ]
 
